@@ -149,7 +149,9 @@ class Home extends React.Component {
           <div className="box-container">
             {!this.state.userPosition
               ?
-              <p className="is-size-6-mobile centered-container">Loading map...</p>
+              <div className="columns is-vcentered is-centered centered-container">
+                <img className="loading-logo column is 4" src="../../assets/logo-greyscale.png"/>
+              </div>
               :
               <HomeMap
                 userPosition={this.state.userPosition}
