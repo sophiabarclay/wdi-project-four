@@ -108,6 +108,7 @@ class Home extends React.Component {
 
   handleFollowedButtonToggle() {
     this.getFollowedBuildings();
+    console.log(this.state);
     this.setState({ followedBuildingsStatus: !this.state.followedBuildingsStatus, followedBuildings: this.state.followedBuildings });
   }
 
