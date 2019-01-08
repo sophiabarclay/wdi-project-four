@@ -44,7 +44,7 @@ View on Heroku [here.](https://dashboard.heroku.com/apps)
 
 ### Wins
 
-![Home Map](./public/assets/Home.png)
+![Home Map width="100"](./public/assets/Home.png)
 ```javascript
 getLikedBuildings() {
   const likedBuildings = [];
