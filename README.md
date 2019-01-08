@@ -71,9 +71,6 @@ handleLikedButtonToggle() {
 }
 ```
 
-### Challenges
-To be completed
-
 ## Bugs
 * Profile button in nav bar not working when viewing another user's profile page
 * Page not refreshing when user clicks on their followed users image on the profile page
