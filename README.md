@@ -45,8 +45,12 @@ View on Heroku [here.](https://dashboard.heroku.com/apps)
 ## Wins and Challenges
 
 ### Wins
-I am pleased with how I managed to create the separate toggle buttons to show the various buildings on the home page map. I categorised the buildings by 'my', 'liked', 'followed' and 'all' to show the user's own buildings, buildings the've liked, the buildings of users that they follow, and all remaining buildings uploaded to Placedholder
+I am pleased with how I managed to create the separate toggle buttons to show the various buildings on the home page map. I categorised the buildings by 'my', 'liked', 'followed' and 'all' to show the user's own buildings, buildings the've liked, the buildings of users that they follow, and all remaining buildings uploaded to Placedholder. 
+
 ![Home Map width="100"](./public/assets/Home.png)
+
+See below here for some of the code for this action, using 'liked' buildings as an example. The getLikedBuildings function selects all buildings, then maps through the array of objects, and pushes any buildings that the user has previously liked into an empty array. This array is then set to state as likedBuildings.
+
 ```javascript
 getLikedBuildings() {
   const likedBuildings = [];
