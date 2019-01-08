@@ -19,6 +19,8 @@ During the planning stage of this project, we chose to use Trello to organise an
 
 View on Heroku [here.](https://dashboard.heroku.com/apps)
 
+![In Motion width="100"](./public/assets/Matt.gif)
+
 ## Technologies Used
 
 * React
@@ -43,7 +45,7 @@ View on Heroku [here.](https://dashboard.heroku.com/apps)
 ## Wins and Challenges
 
 ### Wins
-
+I am pleased with how I managed to create the separate toggle buttons to show the various buildings on the home page map. I categorised the buildings by 'my', 'liked', 'followed' and 'all' to show the user's own buildings, buildings the've liked, the buildings of users that they follow, and all remaining buildings uploaded to Placedholder
 ![Home Map width="100"](./public/assets/Home.png)
 ```javascript
 getLikedBuildings() {
