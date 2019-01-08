@@ -15,9 +15,7 @@
 ## Overview
 This was my fourth and final project during the WDI course at General Assembly (full time 12-week immersive). For this project, I paired up with one of my classmates in order to create Placeholder, an architecture mapping app, where users can pin their favourite buildings to a map, follow like-minded users and discover other architectural gems by location on a map of the world. Users can also create 'tours' by grouping buildings into curated collections, with the ability to add a description and receive comments. 
 
-During the planning stage of this project, we chose to use Trello to organise and coordinate our progress. This enabled us to track our work, stay on schedule, and monitor each others' movements when we weren't working in the same place. We divided the tasks into MVP (due on day 3 of the project), MVP+ (due on day 5), MVP++ (desireable features that we would attempt to include, time allowing). This system was helpful in focusing our priorities and creating a list of to dos that we could work through 
-
-![Trello width="300"](./public/assets/7V3HAoz8l0.gif)
+During the planning stage of this project, we chose to use Trello to organise and coordinate our progress. This enabled us to track our work, stay on schedule, and monitor each others' movements when we weren't working in the same place. We divided the tasks into MVP (due on day 3 of the project), MVP+ (due on day 5), MVP++ (desireable features that we would attempt to include, time allowing). This system was helpful in focusing our priorities and creating a list of to dos that we could work through.
 
 View on Heroku [here.](https://dashboard.heroku.com/apps)
 
@@ -45,7 +43,27 @@ View on Heroku [here.](https://dashboard.heroku.com/apps)
 ## Wins and Challenges
 
 ### Wins
-To be completed
+```javascript
+getLikedBuildings() {
+const likedBuildings = [];
+
+axios.get('/api/buildings')
+.then(result => {
+result.data.map(function(object) {
+if(object.likes.includes(currentUserId)) {
+likedBuildings.push(object);
+}
+});
+this.setState({ likedBuildings: likedBuildings});
+});
+}
+  
+handleLikedButtonToggle() {
+  this.getLikedBuildings();
+  this.setState({ likedBuildingsStatus: !this.state.likedBuildingsStatus, likedBuildings: this.state.likedBuildings });
+}
+```
+
 ### Challenges
 To be completed
 
