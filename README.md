@@ -43,19 +43,20 @@ View on Heroku [here.](https://dashboard.heroku.com/apps)
 ## Wins and Challenges
 
 ### Wins
+
+![Home Map](./public/assets/Home.png)
 ```javascript
 getLikedBuildings() {
-const likedBuildings = [];
-
-axios.get('/api/buildings')
-.then(result => {
-result.data.map(function(object) {
-if(object.likes.includes(currentUserId)) {
-likedBuildings.push(object);
-}
-});
-this.setState({ likedBuildings: likedBuildings});
-});
+  const likedBuildings = [];
+  axios.get('/api/buildings')
+    .then(result => {
+      result.data.map(function(object) {
+        if(object.likes.includes(currentUserId)) {
+          likedBuildings.push(object);
+        }
+      });
+      this.setState({ likedBuildings: likedBuildings});
+    });
 }
   
 handleLikedButtonToggle() {
