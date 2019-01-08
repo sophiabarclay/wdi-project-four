@@ -13,7 +13,7 @@
 **Timeframe**: 1 week
 
 ## Overview
-To be completed
+In this two-person project, we created Placeholder, an architecture mapping app, where users can pin their favourite buildings to a map, follow like-minded users and discover other architectural gems around the world. Users can also create 'tours' by grouping buildings into curated collections, with the ability to add a description and receive comments. 
 
 View on Heroku [here.](https://dashboard.heroku.com/apps)
 
