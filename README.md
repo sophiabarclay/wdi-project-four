@@ -19,7 +19,7 @@ View on Heroku [here.](https://dashboard.heroku.com/apps)
 
 ## Technologies Used
 
-* Angular
+* React
 * JavaScript (ES6)
 * HTML5
 * SCSS
@@ -36,6 +36,7 @@ View on Heroku [here.](https://dashboard.heroku.com/apps)
 * Mocha
 * Leaflet.js map
 * OpenStreetMap API
+* Mapbox API
 
 ## Wins and Challenges
 
