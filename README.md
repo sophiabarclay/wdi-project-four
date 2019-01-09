@@ -16,6 +16,12 @@ During the planning stage of this project, we chose to use Trello to organise an
 
 View on Heroku [here.](https://dashboard.heroku.com/apps)
 
+### Wireframes
+
+![Wireframes width="100"](./public/assets/p4 Wireframes.png)
+
+### Final Product
+
 ![In Motion width="100"](./public/assets/Matt.gif)
 
 ## Technologies Used
