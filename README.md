@@ -1,7 +1,7 @@
 #  ![GA](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67) WDI Project Four: Placeholder
 
 ## Brief
-* Build a full-stack application by making your own backend and your own front-end
+* Build a MERN (MongoDB, Express, React, Node.js) stack web application by making your own backend and your own front-end
 * Use an Express API to serve your data from a Mongo database
 * Consume your API with a separate front-end built with React
 * Be a complete product which most likely means multiple relationships and CRUD functionality for at least two models
@@ -15,8 +15,9 @@ View on Heroku [here.](https://dashboard.heroku.com/apps)
 
 This was my fourth and final project during the WDI course at General Assembly (full time 12-week immersive). For this project, I paired up with one of my classmates to create Placeholder, an architecture mapping app, where users can pin their favourite buildings to a map, follow like-minded users and discover other architectural gems by location on a map of the world. Users can also create 'tours' by grouping buildings into curated collections, with the ability to add a description and receive comments.
 
+The idea for this project came to me originally during a trip to Tel Aviv, earlier in 2018. As someone interested in architecture, particularly buildings from the Bauhaus movement, visiting the iconic Bauhaus examples was central to my trip. Before setting off, I had researched the city's most signifcant buildings on various platforms including Instagram, architecture websites and travel forums, collecting the sites I wanted to visit before saving them in Google Maps. It occured to me that this was a rather lengthy process, and could improved by a one-stop-shop app where fellow architecture nerds could share their favourite buildings all on the same map. 
 
-The idea for this project came to me originally during a trip to Tel Aviv, earlier in 2018. As someone interested in architecture, particularly buildings from the Bauhaus movement, visiting the iconic Bauhaus examples was central to my trip. While planning my t
+This project was completed in week 12 of the 12-week WDI course at General Assembly. As we started learning React in Week 11, the key learning points from this project centred on consolidating my knowledge of React.
 
 ![In Motion](./public/assets/Matt.gif)
 
@@ -88,6 +89,7 @@ handleLikedButtonToggle() {
 * Markers not clearing when unsleected in teh home page
 
 ## Future Work
+* Fix bugs
 * Allow users to click attending on tours
 * Center tour map on the area where the selected buildings are pinned
 * Option to add multiple images to a building, displayed in a gallery
