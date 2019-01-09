@@ -18,7 +18,7 @@ View on Heroku [here.](https://dashboard.heroku.com/apps)
 
 ### Wireframes
 
-![Wireframes](./public/assets/p4 Wireframes.png)
+![Wireframes](./public/assets/p4-Wireframes.png)
 
 ### Final Product
 
