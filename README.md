@@ -18,11 +18,11 @@ View on Heroku [here.](https://dashboard.heroku.com/apps)
 
 ### Wireframes
 
-![Wireframes width="100"](./public/assets/p4 Wireframes.png)
+![Wireframes](./public/assets/p4 Wireframes.png)
 
 ### Final Product
 
-![In Motion width="100"](./public/assets/Matt.gif)
+![In Motion](./public/assets/Matt.gif)
 
 ## Technologies Used
 
