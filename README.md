@@ -13,7 +13,10 @@
 
 View on Heroku [here.](https://dashboard.heroku.com/apps)
 
-This was my fourth and final project during the WDI course at General Assembly (full time 12-week immersive). For this project, I paired up with one of my classmates in order to create Placeholder, an architecture mapping app, where users can pin their favourite buildings to a map, follow like-minded users and discover other architectural gems by location on a map of the world. Users can also create 'tours' by grouping buildings into curated collections, with the ability to add a description and receive comments.
+This was my fourth and final project during the WDI course at General Assembly (full time 12-week immersive). For this project, I paired up with one of my classmates to create Placeholder, an architecture mapping app, where users can pin their favourite buildings to a map, follow like-minded users and discover other architectural gems by location on a map of the world. Users can also create 'tours' by grouping buildings into curated collections, with the ability to add a description and receive comments.
+
+
+The idea for this project came to me originally during a trip to Tel Aviv. As someone interested in architecture, particularly buildings from the Bauhaus movement, visiting the iconic Bauhaus examples was central to my trip. 
 
 ![In Motion](./public/assets/Matt.gif)
 
